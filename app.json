@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Message Board App",
+    "slug": "messageBoardApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.message"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2610475061398027~7092928633"
+      },
+      "package": "com.app.message",
+      "versionCode":1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "facebookScheme": "fb508367063579550",
+    "facebookAppId": "508367063579550", 
+    "facebookDisplayName": "Message Board App"
+  }
+}
